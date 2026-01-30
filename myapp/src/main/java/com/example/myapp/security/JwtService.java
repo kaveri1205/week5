@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 @Service
-public class JwtSecurity {
+public class JwtService {
 
     private static final String SECRET =
             "vikram77vikram77vikram77vikram77";
