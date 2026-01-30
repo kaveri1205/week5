@@ -4,6 +4,7 @@ import { Route, Routes,BrowserRouter } from "react-router-dom";
 import L from "./ui/L";
 import Signup from "./auth/Signup";
 import Login from "./auth/Login";
+import Use from "./auth/Use";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
           <Route path="/" element={<L />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/use" element={<Use/>}/>
         </Routes>
       </BrowserRouter>
     </>
